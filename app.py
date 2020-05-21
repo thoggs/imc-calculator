@@ -1,24 +1,9 @@
-#                      => README! <=
-# --------------------------------------------------------------*
-#                                                               |
-#  Requisitos:                                                  |
-#     => termcolor                                              |
-#       - Windows: python pip install termcolor (cmd admin)     |
-#       - macOS/Linux: python pip install termcolor             |
-#                                                               |
-#     => IDE testada: PyCharm                                   |
-#     => Versão do Python testada 3.8.2                         |
-#                                                               |
-# --------------------------------------------------------------*
+from termcolor import colored
+from time import sleep
 
 
 def imc():
-    # Importação das bibliotecas necessárias
-    from termcolor import colored
-    from time import sleep
-
     flag = True
-
     while True:
         # Função para sair
         def close():
