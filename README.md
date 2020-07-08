@@ -1,6 +1,6 @@
-# Caculadora de IMC
+# IMC Calculator
                                                            
-## Requisitos:                                               
+## Requirements:                                               
 => termcolor
 - Windows: python pip install termcolor (cmd admin)     
 - macOS/Linux: python pip install termcolor           
